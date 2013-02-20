@@ -175,15 +175,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\src\finder.cpp"
+				RelativePath="..\avian\src\finder.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\type-generator.cpp"
+				RelativePath="..\avian\src\type-generator.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\windows.cpp"
+				RelativePath="..\avian\src\windows.cpp"
 				>
 			</File>
 		</Filter>

@@ -18,8 +18,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="1"
 			CharacterSet="1"
 			>
@@ -70,7 +70,7 @@
 				AdditionalDependencies="avian.lib libce.lib"
 				OutputFile="$(OutDir)/avian-dynamic.exe"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="C:\avian\libce\lib;C:\avian\avian\build\wince"
+				AdditionalLibraryDirectories="C:\avian\libce\lib;C:\avian\avian\..\avian\build\wince"
 				DelayLoadDLLs="$(NOINHERIT)"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/avian-dynamic.pdb"
@@ -110,8 +110,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="1"
 			CharacterSet="1"
 			>
@@ -160,7 +160,7 @@
 				AdditionalDependencies="avian.lib libce.lib"
 				OutputFile="$(OutDir)/avian-dynamic.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="C:\avian\libce\lib;C:\avian\avian\build\wince"
+				AdditionalLibraryDirectories="C:\avian\libce\lib;C:\avian\avian\..\avian\build\wince"
 				DelayLoadDLLs="$(NOINHERIT)"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/avian-wince-dynamic.pdb"
@@ -210,7 +210,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\src\main.cpp"
+				RelativePath="..\avian\src\main.cpp"
 				>
 			</File>
 		</Filter>
