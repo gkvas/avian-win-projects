@@ -21,8 +21,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="2"
 			CharacterSet="1"
 			BuildLogFile="$(IntDir)\BuildLog-wince-dll.htm"
@@ -119,8 +119,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="2"
 			CharacterSet="1"
 			BuildLogFile="$(IntDir)\BuildLog-wince-dll.htm"
@@ -225,105 +225,105 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\src\arm.masm"
+				RelativePath="..\avian\src\arm.masm"
 				>
 			</File>
 			<File
-				RelativePath=".\src\builtin.cpp"
+				RelativePath="..\avian\src\builtin.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\classpath-avian.cpp"
+				RelativePath="..\avian\src\classpath-avian.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\compile-arm.masm"
+				RelativePath="..\avian\src\compile-arm.masm"
 				>
 			</File>
 			<File
-				RelativePath=".\src\compile.cpp"
+				RelativePath="..\avian\src\compile.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\finder.cpp"
+				RelativePath="..\avian\src\finder.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\jnienv.cpp"
+				RelativePath="..\avian\src\jnienv.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\machine.cpp"
+				RelativePath="..\avian\src\machine.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\process.cpp"
+				RelativePath="..\avian\src\process.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\util.cpp"
+				RelativePath="..\avian\src\util.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\windows.cpp"
+				RelativePath="..\avian\src\windows.cpp"
 				>
 			</File>
 			<Filter
 				Name="codegen"
 				>
 				<File
-					RelativePath=".\src\codegen\compiler.cpp"
+					RelativePath="..\avian\src\codegen\compiler.cpp"
 					>
 				</File>
 				<File
-					RelativePath=".\src\codegen\registers.cpp"
+					RelativePath="..\avian\src\codegen\registers.cpp"
 					>
 				</File>
 				<File
-					RelativePath=".\src\codegen\targets.cpp"
+					RelativePath="..\avian\src\codegen\targets.cpp"
 					>
 				</File>
 				<Filter
 					Name="compiler"
 					>
 					<File
-						RelativePath=".\src\codegen\compiler\context.cpp"
+						RelativePath="..\avian\src\codegen\compiler\context.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\event.cpp"
+						RelativePath="..\avian\src\codegen\compiler\event.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\frame.cpp"
+						RelativePath="..\avian\src\codegen\compiler\frame.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\ir.cpp"
+						RelativePath="..\avian\src\codegen\compiler\ir.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\promise.cpp"
+						RelativePath="..\avian\src\codegen\compiler\promise.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\read.cpp"
+						RelativePath="..\avian\src\codegen\compiler\read.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\regalloc.cpp"
+						RelativePath="..\avian\src\codegen\compiler\regalloc.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\resource.cpp"
+						RelativePath="..\avian\src\codegen\compiler\resource.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\site.cpp"
+						RelativePath="..\avian\src\codegen\compiler\site.cpp"
 						>
 					</File>
 					<File
-						RelativePath=".\src\codegen\compiler\value.cpp"
+						RelativePath="..\avian\src\codegen\compiler\value.cpp"
 						>
 					</File>
 				</Filter>
@@ -331,7 +331,7 @@
 					Name="arm"
 					>
 					<File
-						RelativePath=".\src\codegen\arm\assembler.cpp"
+						RelativePath="..\avian\src\codegen\arm\assembler.cpp"
 						>
 					</File>
 				</Filter>
@@ -340,7 +340,7 @@
 				Name="heap"
 				>
 				<File
-					RelativePath=".\src\heap\heap.cpp"
+					RelativePath="..\avian\src\heap\heap.cpp"
 					>
 				</File>
 			</Filter>
@@ -361,27 +361,27 @@
 			Name="Classpath Files"
 			>
 			<File
-				RelativePath=".\classpath\java-io.cpp"
+				RelativePath="..\avian\classpath\java-io.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-lang.cpp"
+				RelativePath="..\avian\classpath\java-lang.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-net.cpp"
+				RelativePath="..\avian\classpath\java-net.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-nio.cpp"
+				RelativePath="..\avian\classpath\java-nio.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-util-zip.cpp"
+				RelativePath="..\avian\classpath\java-util-zip.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-util.cpp"
+				RelativePath="..\avian\classpath\java-util.cpp"
 				>
 			</File>
 		</Filter>

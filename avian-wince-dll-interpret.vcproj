@@ -21,8 +21,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="2"
 			CharacterSet="1"
 			BuildLogFile="$(IntDir)\BuildLog-wince-dll-interpret.htm"
@@ -120,8 +120,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"
-			OutputDirectory="build\wince"
-			IntermediateDirectory="build\wince"
+			OutputDirectory="..\avian\build\wince"
+			IntermediateDirectory="..\avian\build\wince"
 			ConfigurationType="2"
 			CharacterSet="1"
 			BuildLogFile="$(IntDir)\BuildLog-wince-dll-interpret.htm"
@@ -226,50 +226,50 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\src\arm.masm"
+				RelativePath="..\avian\src\arm.masm"
 				>
 			</File>
 			<File
-				RelativePath=".\src\builtin.cpp"
+				RelativePath="..\avian\src\builtin.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\classpath-avian.cpp"
+				RelativePath="..\avian\src\classpath-avian.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\finder.cpp"
+				RelativePath="..\avian\src\finder.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\interpret.cpp"
+				RelativePath="..\avian\src\interpret.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\jnienv.cpp"
+				RelativePath="..\avian\src\jnienv.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\machine.cpp"
+				RelativePath="..\avian\src\machine.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\process.cpp"
+				RelativePath="..\avian\src\process.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\util.cpp"
+				RelativePath="..\avian\src\util.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\windows.cpp"
+				RelativePath="..\avian\src\windows.cpp"
 				>
 			</File>
 			<Filter
 				Name="heap"
 				>
 				<File
-					RelativePath=".\src\heap\heap.cpp"
+					RelativePath="..\avian\src\heap\heap.cpp"
 					>
 				</File>
 			</Filter>
@@ -284,27 +284,27 @@
 			Name="Classpath Files"
 			>
 			<File
-				RelativePath=".\classpath\java-io.cpp"
+				RelativePath="..\avian\classpath\java-io.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-lang.cpp"
+				RelativePath="..\avian\classpath\java-lang.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-net.cpp"
+				RelativePath="..\avian\classpath\java-net.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-nio.cpp"
+				RelativePath="..\avian\classpath\java-nio.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-util-zip.cpp"
+				RelativePath="..\avian\classpath\java-util-zip.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\classpath\java-util.cpp"
+				RelativePath="..\avian\classpath\java-util.cpp"
 				>
 			</File>
 		</Filter>
