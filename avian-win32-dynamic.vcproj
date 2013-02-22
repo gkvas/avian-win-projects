@@ -21,8 +21,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="build\win32"
-			IntermediateDirectory="build\win32"
+			OutputDirectory="..\avian\build\win32"
+			IntermediateDirectory="..\avian\build\win32"
 			ConfigurationType="1"
 			CharacterSet="0"
 			>
