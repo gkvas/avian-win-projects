@@ -50,7 +50,7 @@
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
 				Optimization="0"
-				AdditionalIncludeDirectories="C:\avian\libce;C:\avian\avian\src;C:\avian\wince\msvc\include;&quot;C:\avian\avian\build\windows-i386&quot;"
+				AdditionalIncludeDirectories="C:\avian\libce;C:\avian\avian\include;C:\avian\wince\msvc\include;&quot;C:\avian\avian\build\windows-i386&quot;;C:\avian\avian\src"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;$(PLATFORMDEFINES);WINCE;DEBUG;_CONSOLE;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;AVIAN_VERSION=\&quot;0.6\&quot;;AVIAN_TARGET_ARCH=AVIAN_ARCH_X86;AVIAN_TARGET_PLATFORM=AVIAN_PLATFORM_WINDOWS;USE_ATOMIC_OPERATIONS_;TARGET_BYTES_PER_WORD=4;AVIAN_CLASSPATH=\&quot;[classpathJar]\&quot;;AVIAN_JAVA_HOME=\&quot;\&quot;;AVIAN_EMBED_PREFIX=\&quot;\&quot;;_JNI_IMPLEMENTATION_"
 				MinimalRebuild="true"
 				RuntimeLibrary="1"
