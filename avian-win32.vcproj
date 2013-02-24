@@ -324,6 +324,18 @@
 					>
 				</File>
 			</Filter>
+			<Filter
+				Name="vm"
+				>
+				<Filter
+					Name="system"
+					>
+					<File
+						RelativePath="..\avian\src\vm\system\windows.cpp"
+						>
+					</File>
+				</Filter>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Resource Files"

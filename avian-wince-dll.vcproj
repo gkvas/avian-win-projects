@@ -264,10 +264,6 @@
 				RelativePath="..\avian\src\util.cpp"
 				>
 			</File>
-			<File
-				RelativePath="..\avian\src\windows.cpp"
-				>
-			</File>
 			<Filter
 				Name="codegen"
 				>
@@ -343,6 +339,18 @@
 					RelativePath="..\avian\src\heap\heap.cpp"
 					>
 				</File>
+			</Filter>
+			<Filter
+				Name="vm"
+				>
+				<Filter
+					Name="system"
+					>
+					<File
+						RelativePath="..\avian\src\vm\system\windows.cpp"
+						>
+					</File>
+				</Filter>
 			</Filter>
 		</Filter>
 		<Filter

@@ -273,6 +273,14 @@
 					>
 				</File>
 			</Filter>
+			<Filter
+				Name="vm"
+				>
+				<Filter
+					Name="system"
+					>
+				</Filter>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Resource Files"

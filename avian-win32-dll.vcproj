@@ -235,10 +235,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\avian\src\windows.cpp"
-				>
-			</File>
-			<File
 				RelativePath="..\avian\src\x86.masm"
 				>
 			</File>
@@ -317,6 +313,18 @@
 					RelativePath="..\avian\src\heap\heap.cpp"
 					>
 				</File>
+			</Filter>
+			<Filter
+				Name="vm"
+				>
+				<Filter
+					Name="system"
+					>
+					<File
+						RelativePath="..\avian\src\vm\system\windows.cpp"
+						>
+					</File>
+				</Filter>
 			</Filter>
 		</Filter>
 		<Filter
