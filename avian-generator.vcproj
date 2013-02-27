@@ -18,8 +18,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="build\win32"
-			IntermediateDirectory="build\win32"
+			OutputDirectory="..\build\win32"
+			IntermediateDirectory="..\build\win32"
 			ConfigurationType="1"
 			CharacterSet="2"
 			>
@@ -179,11 +179,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\avian\src\type-generator.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\avian\src\windows.cpp"
+				RelativePath="..\avian\src\tools\type-generator\main.cpp"
 				>
 			</File>
 		</Filter>

@@ -135,7 +135,7 @@
 				ExecutionBucket="7"
 				Optimization="2"
 				FavorSizeOrSpeed="2"
-				AdditionalIncludeDirectories="C:\avian\libce;C:\avian\avian\src;C:\avian\wince\msvc\include;&quot;C:\avian\avian\build\windows-i386&quot;"
+				AdditionalIncludeDirectories="C:\avian\libce;C:\avian\avian\include;C:\avian\wince\msvc\include;&quot;C:\avian\avian\build\windows-i386&quot;;C:\avian\avian\src"
 				PreprocessorDefinitions="NDEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;$(PLATFORMDEFINES);WINCE;_CONSOLE;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
