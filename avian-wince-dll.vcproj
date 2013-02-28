@@ -110,7 +110,7 @@
 			/>
 			<DeploymentTool
 				ForceDirty="-1"
-				RemoteDirectory="\"
+				RemoteDirectory="\avian"
 				RegisterOutput="0"
 				AdditionalFiles=""
 			/>
@@ -208,7 +208,7 @@
 			/>
 			<DeploymentTool
 				ForceDirty="-1"
-				RemoteDirectory="\"
+				RemoteDirectory="\avian"
 				RegisterOutput="0"
 				AdditionalFiles=""
 			/>
